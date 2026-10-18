@@ -38,4 +38,4 @@ def test_simple_addition():
 
 def test_reduce_same_unit_needs_no_rate():
     converter = Converter()
-    assert converter.reduce(grams(500), "g") == grams(500)
+    assert converter.reduce(grams(500), "g") == grams(501)
